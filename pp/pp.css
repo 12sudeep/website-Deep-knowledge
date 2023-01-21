@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+:root {
+    --primary-color:white;
+    --secondary-color:#4F378B;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+    --error-color: #d9534f;
+
+     /* fonts */
+     --desktop-headline-large: "Josefin Sans";
+  
+     /* font sizes */
+     --dektop-body-medium-size: 16px;
+     --dektop-body-large-size: 18px;
+     --mobile-headline-medium-size: 28px;
+     --desktop-headline-large-size: 57px;
+   
+     /* Colors */
+     --color-white: #fff;
+   
+     /* border radiuses */
+     --br-md: 20px;
+   
+     /* Effects */
+     --dp-penumbra: 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+     --dp2-penumbra: 0px 02px 03px rgba(0, 0, 0, 0.2);
+
+    /* maxwidth */
+    --max-width:1440px;
+
+
+  }
+/*reset start*/
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+/*reset close*/
+
+/* utality start*/
+
+html{
+  font-size: 80%;
+}
+.container{
+  width:var(--max-width);
+  margin:0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+}
+
+body{
+  background:var(--light-color);
+}
+/* utality close*/
+
+
+  /*navbar starts*/
+  header{
+    width:100%;
+    background:linear-gradient(89.84deg, #23ce6b 0.44%, #313715) ;
+    box-shadow:var(--dp2-penumbra);
+  }
+
+  .header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar{
+
+    list-style: none;
+    display: flex;
+    margin: 2rem 0;
+    position: relative;
+  }
+  .navbar li a{
+    color:var(--color-white);
+    padding:1rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    margin: 0 0.5rem;
+  }
+
+  .logo img{
+    display:block;
+    width: 200px;
+  }
+
+  .btn_responsive{
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none;
+  }
+
+
+  /*navbar close*/
+
+
+
+  
